@@ -16,12 +16,29 @@ Algorithm:
  
 Program:
 ```
+#include<stdio.h>
+int max_of_four(int a,int b,int c,int d)
+{
+    int max=a;
+    if(b>max) max=b;
+    if(c>max) max=c;
+    if(d>max) max=d;
+    return max;
+}
+int main()
+{
+    int a,b,c,d;
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    printf("%d",max_of_four(a,b,c,d));
+}
+```
 
 Output:
 
-
+<img width="361" height="343" alt="image" src="https://github.com/user-attachments/assets/aa96591a-dc14-4535-aeb2-e0fe076f5907" />
 
 Result:
+
 Thus, the program  that create a function to find the greatest number is verified successfully.
 
 
@@ -222,8 +239,7 @@ int main()
 
 Output:
 
-
-
+<img width="945" height="175" alt="image" src="https://github.com/user-attachments/assets/cb94a2f5-7379-4de2-8104-9869ba0b5638" />
 
 
 Result:
